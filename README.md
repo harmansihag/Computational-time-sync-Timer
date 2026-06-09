@@ -1,7 +1,7 @@
 # Computational-time-sync-Timer
 # Real-Time Computational Clock Synchronization
 
-A deterministic Python countdown engine engineered to eliminate cumulative runtime drift ($epsilon$) caused by execution overhead.
+A deterministic Python countdown engine engineered to eliminate cumulative runtime drift ($e$) caused by execution overhead.
 
 ## The Core Problem: Algorithmic Drift
 In a standard execution loop, the total iteration period ($T_{total}$) is not equal to the sleep interval ($t$). Instead:
